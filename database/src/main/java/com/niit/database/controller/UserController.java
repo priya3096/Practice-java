@@ -17,6 +17,7 @@ public class UserController {
 	public ModelAndView isValidUser(@RequestParam(value="name")String name, @RequestParam(value="password")String password)
 	{
 		System.out.println("controller");
+		System.out.println("");
 		String message;
 		ModelAndView mv ;
 		if (userDAO.isValidUser(name, password,true)) 
