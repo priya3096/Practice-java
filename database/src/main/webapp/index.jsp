@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -88,7 +88,7 @@
 			<h1>A great book should leave you with many experiences...</h1>
 			<p>Here we have a wide Collection of books for u... Discover more
 				with us. Join Us Today !</p>
-			<a class="btn btn-primary btn-lg" href="userregister">Sign Up!</a>
+			<a class="btn btn-primary btn-lg" href="memberShip.obj">Sign Up!</a>
 		</div>
 	</div>
 	<!-- Page Content -->

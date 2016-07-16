@@ -5,10 +5,26 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>AdminPage</title>
+<%@include file="/includes/Head.jsp" %>
 </head>
 <body background="resources/images/images.jpg">
-<h1>Welcome!!</h1>
-<a href="genres">genres</a>
+<%@include file="/includes/Navbar.jsp" %>
+<center>
+<h1>Welcome Admin!!</h1>
+<h2><a href="books">Books</a></h2>
+<b><hr></b>
+<br><br>
+<form method="POST" action="uploadFile" enctype="multipart/form-data">
+<div>
+		File to upload: <input type="file" name="file"><br>
+		Name: <input type="text" name="name"><button class="btn btn-primary"> Upload</button> 		
 
+</div>
+	</form>	
+	<br><br>
+	<b>${message} </b>
+<b><hr></b>
+
+</center>
 </body>
 </html>

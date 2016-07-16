@@ -4,7 +4,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.stereotype.Component;
 
 @Entity
@@ -37,5 +37,7 @@ public class User {
 		this.isAdmin = isAdmin;
 	}
 	
-
 }
+
+
+
